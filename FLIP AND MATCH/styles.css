@@ -1,0 +1,94 @@
+body {
+  height: 100%;
+  background-color: #1e1e2f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+h1 {
+  color: #8a2be2;
+  font-size: 7rem;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#game_space {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 70vw;
+  height: auto;
+  justify-content: center;
+}
+
+.block {
+  height: 15vh;
+  width: 15vw;
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  transition:
+    transform 0.3s ease,
+    visibility 0.3s ease;
+}
+
+.block:hover {
+  transform: scale(1.05);
+}
+
+.flipShow {
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.flipShow[data-symbol="Heart"]::after {
+  content: "♥";
+  color: red;
+}
+
+.flipShow[data-symbol="Diamond"]::after {
+  content: "♦";
+  color: blue;
+}
+
+.flipShow[data-symbol="Club"]::after {
+  content: "♣";
+  color: green;
+}
+
+.flipShow[data-symbol="Spade"]::after {
+  content: "♠";
+  color: black;
+}
+
+.flipShow[data-symbol="Sun"]::after {
+  content: "☀";
+  color: orange;
+}
+
+.flipShow[data-symbol="Umbrella"]::after {
+  content: "☂";
+  color: purple;
+}
+
+.flipShow[data-symbol="Star"]::after {
+  content: "★";
+  color: gold;
+}
+
+.flipShow[data-symbol="Snowman"]::after {
+  content: "☃";
+  color: cyan;
+}
+
+.result {
+  color: #8a2be2;
+  font-size: 3rem;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  user-select: none;
+}

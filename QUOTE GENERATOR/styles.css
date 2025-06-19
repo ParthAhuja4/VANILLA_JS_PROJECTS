@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2b2540, #3a3050);
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  max-width: 700px;
+  width: 90%;
+  text-align: center;
+}
+
+#heading {
+  font-size: 2.4rem;
+  color: #0ff;
+  margin-bottom: 1.8rem;
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#quoteBox {
+  background: rgba(24, 24, 24, 0.6); /* dark neutral glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  min-height: 130px;
+  color: #eaeaea;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+#quoteText {
+  font-size: 1.3rem;
+  color: #e0e0e0;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+#quoteTag {
+  font-size: 0.95rem;
+  color: #6bc1ff;
+  font-style: italic;
+  letter-spacing: 0.4px;
+}
+
+#generate {
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #00ffc8;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 255, 200, 0.4);
+  transition: all 0.3s ease;
+}
+
+#generate:hover {
+  background-color: #00d4a9;
+  box-shadow: 0 0 14px rgba(0, 255, 200, 0.6);
+  transform: scale(1.03);
+}

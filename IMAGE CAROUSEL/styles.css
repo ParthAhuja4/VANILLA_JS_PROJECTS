@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #3e1f47, #6e445a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.carousel {
+  width: 90vw;
+  max-width: 850px;
+  aspect-ratio: 16 / 9;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+  position: relative;
+  background-color: #121212;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+  height: 100%;
+}
+
+.carousel-image {
+  min-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+}
+
+.carousel-controls {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.carousel-btn {
+  background: #ffffff10;
+  backdrop-filter: blur(8px);
+  padding: 0.9rem 2rem;
+  border: 2px solid #ffffff30;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background-color: #ffffff25;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+.carousel-heading {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  color: #fcecc9;
+  text-shadow: 0 0 10px rgba(252, 236, 201, 0.25);
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}

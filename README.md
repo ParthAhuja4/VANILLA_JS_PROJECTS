@@ -80,16 +80,16 @@ VANILLA_JS_PROJECTS/
 │   ├── script.js
 │   └── styles.css
 │
-├── IMAGE CAROUSEL/
-│   ├── index.html
-│   ├── script.js
-│   └── styles.css
-│
 ├── GIFs/
 │   ├── FLIP-AND-MATCH.gif
 │   ├── IMAGE-CAROUSEL.gif
 │   ├── QUOTE-GENERATOR.gif
 │   └── TIC-TAC-TOE.gif
+│
+├── IMAGE CAROUSEL/
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
 │
 ├── QUOTE GENERATOR/
 │   ├── index.html
@@ -100,6 +100,7 @@ VANILLA_JS_PROJECTS/
     ├── index.html
     ├── script.js
     └── styles.css
+
 
 
 

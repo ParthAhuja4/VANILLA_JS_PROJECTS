@@ -74,32 +74,33 @@ A classic two-player Tic Tac Toe game featuring real-time win logic, dynamic tur
 
 ```
 
-VANILLA_JS_PROJECTS/  
-├──FLIP AND MATCH/  
-│ ├── index.html  
-│ ├── script.js  
-│ └── styles.css  
-│  
-├──IMAGE CAROUSEL/  
-│ ├── index.html  
-│ ├── script.js  
-│ └── styles.css  
-│  
-├──QUOTE GENERATOR/  
-│ ├── index.html  
-│ ├── script.js  
-│ └── styles.css  
-│  
-├──TIC-TAC-TOE/  
-│ ├── index.html  
-│ ├── script.js  
-│ └── styles.css  
-│  
-└──GIFs/  
-├──FLIP-AND-MATCH.gif  
-├──IMAGE-CAROUSEL.gif
-├──QUOTE-GENERATOR.gif
-└──TIC-TAC-TOE.gif
+VANILLA_JS_PROJECTS/
+├── FLIP AND MATCH/
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
+│
+├── IMAGE CAROUSEL/
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
+│
+├── GIFs/
+│   ├── FLIP-AND-MATCH.gif
+│   ├── IMAGE-CAROUSEL.gif
+│   ├── QUOTE-GENERATOR.gif
+│   └── TIC-TAC-TOE.gif
+│
+├── QUOTE GENERATOR/
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
+│
+└── TIC-TAC-TOE/
+    ├── index.html
+    ├── script.js
+    └── styles.css
+
 
 
 ```

@@ -18,7 +18,7 @@ A 4x4 card-matching game that challenges the player’s memory with randomized s
 - 🚀 Self-contained logic loop for continuous play.
 
 **🛠️ Tech Stack:** HTML, CSS , JavaScript
-**🔗 [Live Demo](https://flip-and-match-seven.vercel.app/)**
+<a href="https://flip-and-match-seven.vercel.app/" target="_blank">🔗 Live Demo</a>
 
 ## 🖼️ 2. Image Carousel
 
@@ -34,7 +34,7 @@ A responsive and seamless image slider that cycles through a gallery of high-res
 - 💡 Fully modular JS logic for reusability.
 
 **🛠️ Tech Stack:** HTML, CSS , JavaScript
-**🔗 [Live Demo]((https://image-carousel-lake.vercel.app/))**
+<a href="https://image-carousel-lake.vercel.app/" target="_blank">🔗 Live Demo</a>
 
 
 ## ✨ 3. Random Quote Generator
@@ -68,7 +68,7 @@ A classic two-player Tic Tac Toe game featuring real-time win logic, dynamic tur
 - 🎨 Polished layout using CSS Grid + Flexbox.
 
 **🛠️ Tech Stack:** HTML, CSS, JavaScript
-**🔗 [Live Demo]((https://tic-tac-toe-two-mocha-15.vercel.app/))**
+<a href="https://tic-tac-toe-two-mocha-15.vercel.app/" target="_blank">🔗 Live Demo</a>
 
 
 ## 📂 Project Structure
